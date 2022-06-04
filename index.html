@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="flipkart.svg" type="image/x-icon">
     <title>Flipkart</title>
 </head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 <link rel="stylesheet" href="Flipkart.css">
 <body>
     <div class="A">
@@ -64,6 +65,18 @@
     </div>
 
     <div class="C">
+        <div class="navigator">
+            <div class="left-nav nav-btn" onclick="scroll_It(-1350,0,'.Cc')">
+                <span class="material-symbols-outlined">
+                    arrow_back_ios
+                </span>
+            </div>
+            <div class="right-nav nav-btn" onclick="scroll_It(1350,0,'.Cc')"> 
+                <span class="material-symbols-outlined">
+                    arrow_forward_ios
+                </span>
+            </div>
+        </div>
         <div class="Cc">
             <img src="stockimages\C-images\3.jpg" alt="">
             <img src="stockimages\C-images\1.jpg" alt="">
@@ -78,7 +91,19 @@
             Deals of The Day
             <button>VIEW ALL</button>
         </div>
-        <div class="Dd1">
+        <div class="navigator">
+            <div class="left-nav nav-btn" onclick="scroll_It(-1350,0,'.Dd1')">
+                <span class="material-symbols-outlined">
+                    arrow_back_ios
+                </span>
+            </div>
+            <div class="right-nav nav-btn" onclick="scroll_It(1350,0,'.Dd1')"> 
+                <span class="material-symbols-outlined">
+                    arrow_forward_ios
+                </span>
+            </div>
+        </div>
+        <div class="Dd1" id="temporary">
             <div class="d">
                 <div class="d0"><img src="stockimages\D-images\bagback.jpeg" alt=""> </div>
                 <div class="d1">Bagpacks</div>
@@ -153,14 +178,26 @@
             </div>
         </div>
     </div>
-
+    
     
     <div class="D">
         <div class="Dd0">
             Deals of The Day
             <button>VIEW ALL</button>
         </div>
-        <div class="Dd1">
+        <div class="navigator">
+            <div class="left-nav nav-btn" onclick="scroll_It(-1350,0,'.div1')">
+                <span class="material-symbols-outlined">
+                    arrow_back_ios
+                </span>
+            </div>
+            <div class="right-nav nav-btn" onclick="scroll_It(1350,0,'.div1')">
+                <span class="material-symbols-outlined">
+                    arrow_forward_ios
+                </span>
+            </div>
+        </div>
+        <div class="Dd1 div1">
             <div class="d">
                 <div class="d0"><img src="stockimages\D-images\bagback.jpeg" alt=""> </div>
                 <div class="d1">Bagpacks</div>
@@ -298,4 +335,5 @@
         </div>
     </div>
 </body>
+<script src="Flipkart.js"></script>
 </html>
